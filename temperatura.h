@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 float convertUniTempe (int selecTempe, float numAtualTempe) {
 
@@ -54,7 +54,7 @@ float convertUniTempe (int selecTempe, float numAtualTempe) {
 
 }
 
-int main()
+int converterTemperatura(void)
 {
     float numAtualTempe;
     int selecTempe;
