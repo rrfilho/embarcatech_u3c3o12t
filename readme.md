@@ -1,0 +1,1 @@
+Para o uso, basta chamar a função converterTemperatura()
