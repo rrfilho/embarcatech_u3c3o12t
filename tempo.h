@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 float convertUniTempo (int selecTemp, float numAtualTemp) {
 
@@ -52,7 +52,7 @@ float convertUniTempo (int selecTemp, float numAtualTemp) {
 
 }
 
-int main()
+int converterTempo(void)
 {
     float numAtualTemp;
     int selecTemp;
