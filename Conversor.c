@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "ConversorTemp.h"
 
 void converterVolume(float quantidade, char medida, char newmedida){ //Função Converte Volume
     float resultado;
@@ -76,7 +77,7 @@ printf("Bem vindo ao Conversor de medidas \n");
 /*printf("1-Unidades de Comprimento\n");
 printf("2-Unidades de Massa\n"); */
 printf("3-Unidades de Volume\n");
-/*printf("4-Unidades de Temperatura\n"); */
+printf("4-Unidades de Temperatura\n"); 
 printf("5-Unidades de Velocidade\n");
 /*printf("6-Unidades de Energetica\n");
 printf("7-Unidades de Área\n");
@@ -95,6 +96,11 @@ switch(op) {
     printf("Informe Para Qual unidade de Volume você deseja converter.\n (L - Litro, M - Militro, C - Metro Cubico.)\n");
     scanf(" %c", &newmedida);  
     converterVolume(quantidade, medida, newmedida);
+    break;
+
+    case 4:
+
+    ConversorDeTemperatura();
     break;
 
     case 5:
