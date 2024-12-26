@@ -22,6 +22,9 @@ float convertUniTempo (int selecTemp, float numAtualTemp) {
     printf("%f minuto(s) equivale a %f hora(s)\n", numAtualTemp, minPhor);
     printf("%f hora(s) equivale a %f segundo(s)\n", numAtualTemp, horPsec);
     printf("%f hora(s) equivale a %f minuto(s)\n", numAtualTemp, horPmin);
+
+    Não estou usando o .2f pois algumas convresões precisam de uma precisão maior
+
 */ 
    switch (selecTemp)
     {
@@ -52,15 +55,15 @@ float convertUniTempo (int selecTemp, float numAtualTemp) {
 
 }
 
-int converterTempo(void)
+void converterTempo()
 {
     float numAtualTemp;
     int selecTemp;
 
 
-    printf("Informe O valor a ser convertido\n");
+    printf("Informe o valor a ser convertido\n");
     scanf("%f", &numAtualTemp);
-    printf("Informe a conversao que deseja\n");
+    printf("Informe a conversão que deseja\n");
     printf("Digite:\n");
     printf("(1) - segundo(s) para minuto(s)\n");
     printf("(2) - segundo(s) para hora(s)\n");
@@ -72,7 +75,7 @@ int converterTempo(void)
 
     convertUniTempo(selecTemp, numAtualTemp);
 
-    return 0;
+    
 }
 
 
