@@ -7,6 +7,8 @@ char* convertData(int choice, float value) {
         case 1: snprintf(result, 128, "%.2f bits são %.2f bytes", value, value / 8); break;
         case 2: snprintf(result, 128, "%.2f bytes são %.2f kilobytes", value, value / 1024); break;
         case 3: snprintf(result, 128, "%.2f kilobytes são %.2f megabytes", value, value / 1024); break;
+        case 4: snprintf(result, 128, "%.2f megabytes são %.2f gigabytes", value, value / 1024); break;
+        case 5: snprintf(result, 128, "%.2f gigabytes são %.2f terabytes", value, value / 1024); break;
         default: snprintf(result, 128, "Opção inválida!");
     }
     return result;
@@ -22,6 +24,8 @@ void getDataConverter() {
     printf("#  1 - Bits -> Bytes                   #\n");
     printf("#  2 - Bytes -> Kilobytes              #\n");
     printf("#  3 - Kilobytes -> Megabytes          #\n");
+    printf("#  4 - Megabytes -> Gigabytes          #\n");
+    printf("#  5 - Gigabytes -> Terabytes          #\n");
     printf("#                                      #\n");
     printf("   Escolha o tipo de conversão: ");
     scanf("%u", &choice);

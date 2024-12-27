@@ -12,6 +12,8 @@ unsigned int getConverter() {
 	printf("#  2 - Massa                           #\n");
 	printf("#  3 - Volume                          #\n");
 	printf("#  4 - Temperatura                     #\n");
+	printf("#  7 - Área                            #\n");
+	printf("#  9 - Dados                           #\n");
 	printf("#  0 - Sair                            #\n");
 	printf("#                                      #\n");
 	printf("   Escolha o tipo de conversão: ");
