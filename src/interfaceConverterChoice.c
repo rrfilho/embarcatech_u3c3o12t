@@ -12,7 +12,10 @@ unsigned int getConverter() {
 	printf("#  2 - Massa                           #\n");
 	printf("#  3 - Volume                          #\n");
 	printf("#  4 - Temperatura                     #\n");
+	printf("#  5 - Velocidade                      #\n");
+	printf("#  5 - Potência                        #\n");
 	printf("#  7 - Área                            #\n");
+	printf("#  8 - Tempo                           #\n");
 	printf("#  9 - Dados                           #\n");
 	printf("#  0 - Sair                            #\n");
 	printf("#                                      #\n");

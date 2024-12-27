@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-char* convert(int choice, float value) {
+char* lengthConvert(int choice, float value) {
 	static char result[128];
 	switch(choice) {
 		case 1: snprintf(result, 128, "%.2f milímetros são %.2f centímetros", value, value * 0.1); break;
@@ -38,7 +38,7 @@ void getLengthConverter() {
 		printf("Opção ou medida inválidos.\n");
 	} 
 	else {
-		printf("%s\n", convert(choice, value));
+		printf("%s\n", lengthConvert(choice, value));
 	}
 	system("PAUSE");
 }
