@@ -14,7 +14,7 @@ char* convertTemp(int choice, float value) {
 	return result;
 }
 
-void ConversorDeTemperatura() {
+void conversorDeTemperatura() {
 	unsigned int choice;
 	float value;
 	system("cls");
@@ -32,7 +32,7 @@ void ConversorDeTemperatura() {
 	scanf("%u", &choice);
 	printf("\n   Informe a medida: ");
 	scanf("%f", &value);
-	if (choice < 1 || choice > 6 || value <= 0) {
+	if (choice < 1 || choice > 6) {
 		printf("Opção ou medida inválidos.\n");
 	} 
 	else {
