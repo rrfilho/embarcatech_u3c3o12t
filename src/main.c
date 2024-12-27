@@ -1,5 +1,6 @@
 #include "lengthConverter.h"
 #include "volumeConverter.h"
+#include "conversorTemperatura.h"
 #include "velocidadeConverter.h"
 #include "areaConverter.h"
 #include "dadosConverter.h"
@@ -12,7 +13,9 @@ int main() {
 		switch (choice) {
 		case 0: return 0;
 		case 1: getLengthConverter(); break;
+
 		case 3: getVolumeConverter(); break;
+		case 4: conversorDeTemperatura(); break;
 		case 5: getVelocidadeConverter(); break;
 		case 7: getAreaConverter(); break;
 		case 9: getDataConverter(); break;
