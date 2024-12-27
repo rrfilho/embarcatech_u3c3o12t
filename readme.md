@@ -12,7 +12,7 @@ Escolha inicialmente o tipo de conversão:
   3 - Volume                          
   4 - Temperatura                     
   5 - Velocidade                      
-  5 - Potência                        
+  6 - Potência                        
   7 - Área                            
   8 - Tempo                           
   9 - Dados                           
