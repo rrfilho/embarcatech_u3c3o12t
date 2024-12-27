@@ -1,1 +1,1 @@
-float getLengthConverter();
+void getLengthConverter();
